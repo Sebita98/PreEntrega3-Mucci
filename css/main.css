@@ -23,7 +23,7 @@ nav ul li a:hover {
 
 /* cartas */
 main {
-  background: linear-gradient(rgba(129, 19, 192, 0.829), rgba(54, 19, 119, 0.75)), url(../imgs/lab3.png.png);
+  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imgs/lab3.png.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -373,6 +373,8 @@ h2 {
     margin-top: 8cm; } }
 
 .cv {
+  background-color: white;
+  padding: 20px;
   height: 40vh;
   align-items: center;
   text-align: center;
@@ -413,13 +415,6 @@ h2 {
 @media screen and (max-width: 768px) {
   .contacto {
     height: 430vh; } }
-
-.contacto2 {
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imgs/contacto.png.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover; }
 
 .box-container {
   display: flex;

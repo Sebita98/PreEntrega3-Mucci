@@ -49,13 +49,19 @@ h2 {
   background-color: rgba(255, 0, 0, 0.74);
   background-size: cover; }
 
+// Mixin
+@mixin relaciones($alto, $ancho, $espacio) {
+  height: $slto;
+  padding: $ancho;
+  align-items: $espacio;
+  
+}
+
 .talento {
-  height: 60vh;
-  padding: 20px;
-  align-items: center;
   text-align: center;
   animation-name: entrada-principal;
-  animation-duration: 3s; }
+  animation-duration: 3s;
+ @include relaciones(60px, 20px, 30px) }
 
 @keyframes entrada-principal {
   0% {
@@ -82,6 +88,8 @@ h2 {
     margin-top: 8cm; } }
 
 .cv {
+  background-color: white;
+  padding: 20px;
   height: 40vh;
   align-items: center;
   text-align: center;
@@ -105,13 +113,14 @@ h2 {
 .pp {
   text-align: center; }
 
-.contacto, .contacto2 {
+.contacto {
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imgs/contacto.png.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   padding: 20px;
+
   align-items: center;
   color: #fff;
   display: flex;
@@ -126,11 +135,7 @@ h2 {
     height: 430vh; } }
 
 .contacto2 {
-  background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imgs/contacto.png.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
+  @extend .contacto;
 
 }
 
