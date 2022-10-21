@@ -23,7 +23,6 @@ nav ul li a:hover {
 
 /* cartas */
 main {
-  
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imgs/lab3.png.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -88,13 +87,15 @@ main {
 
 /* Estilado de Cartas de productos */
 header {
-  background: linear-gradient(rgba(5, 7, 12, 0.589), #05070c); }
+  background-image: url(../imgs/prueba1.png.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 .dermatologia {
   padding: 20px;
   display: grid;
-  grid-template-areas: "cardp  cardp"
- "cardp  cardp";
+  grid-template-areas: "cardp  cardp" "cardp  cardp";
   justify-content: space-around; }
 
 .card1 {
@@ -112,8 +113,7 @@ header {
 .diabetes {
   padding: 20px;
   display: grid;
-  grid-template-areas: "cardp  cardp"
- "cardp  cardp";
+  grid-template-areas: "cardp  cardp" "cardp  cardp";
   justify-content: space-around; }
 
 .card1 {
@@ -131,8 +131,7 @@ header {
 .respiratoria {
   padding: 20px;
   display: grid;
-  grid-template-areas: "cardp  cardp"
- "cardp  cardp";
+  grid-template-areas: "cardp  cardp" "cardp  cardp";
   justify-content: space-around; }
 
 .card1 {
@@ -150,8 +149,7 @@ header {
 .psiquiatria {
   padding: 20px;
   display: grid;
-  grid-template-areas: "cardp  cardp"
- "cardp  cardp";
+  grid-template-areas: "cardp  cardp" "cardp  cardp";
   justify-content: space-around; }
 
 .card1 {
@@ -169,8 +167,7 @@ header {
 .urologia {
   padding: 20px;
   display: grid;
-  grid-template-areas: "cardp  cardp"
- "cardp  cardp";
+  grid-template-areas: "cardp  cardp" "cardp  cardp";
   justify-content: space-around; }
 
 .card1 {
@@ -188,8 +185,7 @@ header {
 .antiinfecciosa {
   padding: 20px;
   display: grid;
-  grid-template-areas: "cardp  cardp"
- "cardp  cardp";
+  grid-template-areas: "cardp  cardp" "cardp  cardp";
   justify-content: space-around; }
 
 .card1 {
@@ -208,10 +204,7 @@ header {
 @media screen and (max-width: 768px) {
   .dermatologia {
     display: grid;
-    grid-template-areas: "cardp"
- "cardp"
- "cardp"
- "cardp"; }
+    grid-template-areas: "cardp" "cardp" "cardp" "cardp"; }
   .card1 {
     grid-area: cardp; }
   .card2 {
@@ -224,10 +217,7 @@ header {
 @media screen and (max-width: 768px) {
   .diabetes {
     display: grid;
-    grid-template-areas: "cardp"
- "cardp"
- "cardp"
- "cardp"; }
+    grid-template-areas: "cardp" "cardp" "cardp" "cardp"; }
   .card1 {
     grid-area: cardp; }
   .card2 {
@@ -240,10 +230,7 @@ header {
 @media screen and (max-width: 768px) {
   .respiratoria {
     display: grid;
-    grid-template-areas: "cardp"
- "cardp"
- "cardp"
- "cardp"; }
+    grid-template-areas: "cardp" "cardp" "cardp" "cardp"; }
   .card1 {
     grid-area: cardp; }
   .card2 {
@@ -256,10 +243,7 @@ header {
 @media screen and (max-width: 768px) {
   .psiquiatria {
     display: grid;
-    grid-template-areas: "cardp"
- "cardp"
- "cardp"
- "cardp"; }
+    grid-template-areas: "cardp" "cardp" "cardp" "cardp"; }
   .card1 {
     grid-area: cardp; }
   .card2 {
@@ -272,10 +256,7 @@ header {
 @media screen and (max-width: 768px) {
   .urologia {
     display: grid;
-    grid-template-areas: "cardp"
- "cardp"
- "cardp"
- "cardp"; }
+    grid-template-areas: "cardp" "cardp" "cardp" "cardp"; }
   .card1 {
     grid-area: cardp; }
   .card2 {
@@ -288,10 +269,7 @@ header {
 @media screen and (max-width: 768px) {
   .antiinfecciosa {
     display: grid;
-    grid-template-areas: "cardp"
- "cardp"
- "cardp"
- "cardp"; }
+    grid-template-areas: "cardp" "cardp" "cardp" "cardp"; }
   .card1 {
     grid-area: cardp; }
   .card2 {
@@ -300,41 +278,6 @@ header {
     grid-area: cardp; }
   .card4 {
     grid-area: cardp; } }
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif; }
-
-/* Texto presentacion */
-.presentacion {
-  background-image: url(../imgs/lab3.png.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
-
-/* animacion compañia */
-.compania {
-  animation-name: entrada-superior;
-  animation-duration: 2s; }
-
-@keyframes entrada-superior {
-  0% {
-    transform: translateY(-700px); }
-  100% {
-    transform: translateY(0); } }
-
-h2 {
-  text-align: center; }
-
-.linea {
-  height: 50vh; }
 
 /* rrhh */
 .rrhh {
@@ -414,7 +357,7 @@ h2 {
   align-items: center; }
 
 @media screen and (max-width: 768px) {
-  .contacto {
+  .contacto, .contacto2 {
     height: 430vh; } }
 
 .box-container {
@@ -457,3 +400,38 @@ h2 {
   background-position: center;
   background-attachment: fixed;
   background-size: cover; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+/* Texto presentacion */
+.presentacion {
+  background-image: url(../imgs/lab3.png.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+/* animacion compañia */
+.compania {
+  animation-name: entrada-superior;
+  animation-duration: 2s; }
+
+@keyframes entrada-superior {
+  0% {
+    transform: translateY(-700px); }
+  100% {
+    transform: translateY(0); } }
+
+h2 {
+  text-align: center; }
+
+.linea {
+  height: 50vh; }

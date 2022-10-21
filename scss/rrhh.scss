@@ -3,13 +3,16 @@
     background-color: rgba(255, 0, 0, 0.74);
     background-size: cover; }
   
-
+  
   
   .talento {
+    height: 60vh;
+    padding: 20px;
+    align-items: center;
     text-align: center;
     animation-name: entrada-principal;
     animation-duration: 3s;
-   @include relaciones(60vh, 20px, center) }
+    }
   
   @keyframes entrada-principal {
     0% {

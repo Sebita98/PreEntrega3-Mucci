@@ -65,7 +65,13 @@ main {
   
   /* Estilado de Cartas de productos */
   header {
-    background-image: url(../imgs/prueba1.png.jpg); }
+    background-image: url(../imgs/prueba1.png.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: cover;
+  
+   }
   
   .dermatologia {
     padding: 20px;
