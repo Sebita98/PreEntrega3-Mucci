@@ -1,6 +1,7 @@
 
 /* cartas */
 main {
+  
   background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../imgs/lab3.png.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -64,7 +65,7 @@ main {
   
   /* Estilado de Cartas de productos */
   header {
-    background: linear-gradient(rgba(5, 7, 12, 0.589), #05070c); }
+    background-image: url(../imgs/prueba1.png.jpg); }
   
   .dermatologia {
     padding: 20px;
