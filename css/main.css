@@ -87,102 +87,17 @@ main {
 
 /* Estilado de Cartas de productos */
 header {
-  background-image: url(../imgs/prueba1.png.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-image: linear-gradient(rgba(5, 7, 12, 0.616), rgba(5, 7, 12, 0.5)), url(../imgs/prueba1.png.jpg); }
 
-.dermatologia {
+.linea {
   padding: 20px;
-  display: grid;
-  grid-template-areas: "cardp  cardp" "cardp  cardp";
-  justify-content: space-around; }
+  color: white; }
 
-.card1 {
-  grid-area: cardp; }
+ul li a {
+  text-decoration: none;
+  color: wheat; }
 
-.card2 {
-  grid-area: cardp; }
-
-.card3 {
-  grid-area: cardp; }
-
-.card4 {
-  grid-area: cardp; }
-
-.diabetes {
-  padding: 20px;
-  display: grid;
-  grid-template-areas: "cardp  cardp" "cardp  cardp";
-  justify-content: space-around; }
-
-.card1 {
-  grid-area: cardp; }
-
-.card2 {
-  grid-area: cardp; }
-
-.card3 {
-  grid-area: cardp; }
-
-.card4 {
-  grid-area: cardp; }
-
-.respiratoria {
-  padding: 20px;
-  display: grid;
-  grid-template-areas: "cardp  cardp" "cardp  cardp";
-  justify-content: space-around; }
-
-.card1 {
-  grid-area: cardp; }
-
-.card2 {
-  grid-area: cardp; }
-
-.card3 {
-  grid-area: cardp; }
-
-.card4 {
-  grid-area: cardp; }
-
-.psiquiatria {
-  padding: 20px;
-  display: grid;
-  grid-template-areas: "cardp  cardp" "cardp  cardp";
-  justify-content: space-around; }
-
-.card1 {
-  grid-area: cardp; }
-
-.card2 {
-  grid-area: cardp; }
-
-.card3 {
-  grid-area: cardp; }
-
-.card4 {
-  grid-area: cardp; }
-
-.urologia {
-  padding: 20px;
-  display: grid;
-  grid-template-areas: "cardp  cardp" "cardp  cardp";
-  justify-content: space-around; }
-
-.card1 {
-  grid-area: cardp; }
-
-.card2 {
-  grid-area: cardp; }
-
-.card3 {
-  grid-area: cardp; }
-
-.card4 {
-  grid-area: cardp; }
-
-.antiinfecciosa {
+.cartas {
   padding: 20px;
   display: grid;
   grid-template-areas: "cardp  cardp" "cardp  cardp";
@@ -202,72 +117,7 @@ header {
 
 /* media queries productos */
 @media screen and (max-width: 768px) {
-  .dermatologia {
-    display: grid;
-    grid-template-areas: "cardp" "cardp" "cardp" "cardp"; }
-  .card1 {
-    grid-area: cardp; }
-  .card2 {
-    grid-area: cardp; }
-  .card3 {
-    grid-area: cardp; }
-  .card4 {
-    grid-area: cardp; } }
-
-@media screen and (max-width: 768px) {
-  .diabetes {
-    display: grid;
-    grid-template-areas: "cardp" "cardp" "cardp" "cardp"; }
-  .card1 {
-    grid-area: cardp; }
-  .card2 {
-    grid-area: cardp; }
-  .card3 {
-    grid-area: cardp; }
-  .card4 {
-    grid-area: cardp; } }
-
-@media screen and (max-width: 768px) {
-  .respiratoria {
-    display: grid;
-    grid-template-areas: "cardp" "cardp" "cardp" "cardp"; }
-  .card1 {
-    grid-area: cardp; }
-  .card2 {
-    grid-area: cardp; }
-  .card3 {
-    grid-area: cardp; }
-  .card4 {
-    grid-area: cardp; } }
-
-@media screen and (max-width: 768px) {
-  .psiquiatria {
-    display: grid;
-    grid-template-areas: "cardp" "cardp" "cardp" "cardp"; }
-  .card1 {
-    grid-area: cardp; }
-  .card2 {
-    grid-area: cardp; }
-  .card3 {
-    grid-area: cardp; }
-  .card4 {
-    grid-area: cardp; } }
-
-@media screen and (max-width: 768px) {
-  .urologia {
-    display: grid;
-    grid-template-areas: "cardp" "cardp" "cardp" "cardp"; }
-  .card1 {
-    grid-area: cardp; }
-  .card2 {
-    grid-area: cardp; }
-  .card3 {
-    grid-area: cardp; }
-  .card4 {
-    grid-area: cardp; } }
-
-@media screen and (max-width: 768px) {
-  .antiinfecciosa {
+  .cartas {
     display: grid;
     grid-template-areas: "cardp" "cardp" "cardp" "cardp"; }
   .card1 {
