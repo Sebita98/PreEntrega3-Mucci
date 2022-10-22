@@ -1,3 +1,4 @@
+@import "variables";
 
 /* cartas */
 main {
@@ -14,8 +15,8 @@ main {
 /* cartas giratorias productos */
 .cardp {
     position: relative;
-    width: 350px;
-    height: 300px;
+    width: $width+200;
+    height: $height+200px;
     margin: 20px; }
   
   .cardp .face {
@@ -85,7 +86,7 @@ main {
 
 
   .cartas{
-    padding: 20px;
+    padding: $spacing+10px;
     display: grid;
     grid-template-areas: "cardp  cardp"
    "cardp  cardp";
