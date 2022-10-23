@@ -134,38 +134,6 @@ ul li a {
   background-color: rgba(255, 0, 0, 0.74);
   background-size: cover; }
 
-.talento {
-  height: 60vh;
-  padding: 20px;
-  align-items: center;
-  text-align: center;
-  animation-name: entrada-principal;
-  animation-duration: 3s; }
-
-@keyframes entrada-principal {
-  0% {
-    transform: translatey(800px); }
-  100% {
-    transform: translatey(0); } }
-
-.crecimiento {
-  height: 60vh;
-  padding: 20px;
-  align-items: center;
-  text-align: center;
-  animation-name: entrada-inferior;
-  animation-duration: 3s; }
-
-@keyframes entrada-inferior {
-  0% {
-    transform: translatex(800px); }
-  100% {
-    transform: translatex(0); } }
-
-@media screen and (max-width: 768px) {
-  .crecimiento {
-    margin-top: 8cm; } }
-
 .cv {
   background-color: white;
   padding: 20px;
