@@ -287,5 +287,6 @@ h2 {
 .linea {
   height: 50vh; }
 
-.footer {
-  min-height: calc(100vh - 100px - 300px); }
+@media screen and (max-width: 768px) {
+  .ulitmo {
+    height: 300%; } }
