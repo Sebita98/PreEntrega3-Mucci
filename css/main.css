@@ -169,7 +169,7 @@ ul li a {
 .cv {
   background-color: white;
   padding: 20px;
-  height: 40vh;
+  height: 100%;
   align-items: center;
   text-align: center;
   animation-name: entrada-lateral;
@@ -254,6 +254,7 @@ ul li a {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Roboto', sans-serif; }
 
 /* Texto presentacion */
@@ -285,3 +286,6 @@ h2 {
 
 .linea {
   height: 50vh; }
+
+.footer {
+  min-height: calc(100vh - 100px - 300px); }

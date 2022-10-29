@@ -8,6 +8,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Roboto', sans-serif; }
 
 
@@ -43,3 +44,8 @@ h2 {
 
 .linea {
   height: 50vh; }
+
+
+  .footer{
+    min-height: calc(100vh - 100px - 300px);
+  }
